@@ -1,4 +1,5 @@
 import React from "react";
+import "../components/style/contact.scss";
 
 export default function Contact() {
   const [name, setName] = React.useState("");

@@ -1,0 +1,44 @@
+.container {
+  .intro {
+    h1 {
+      font-size: 48px;
+      width: 100%;
+      color: #4bbb7b;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      margin: 10% auto 4%;
+    }
+    p {
+      font-size: 16px;
+      color: #ffffff;
+      width: 80%;
+      text-align: center;
+      width: 50%;
+      margin: 1% auto;
+    }
+  }
+  .list {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 200px auto 100px;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 80%;
+    margin: 4% auto;
+    text-align: center;
+    .list-item {
+      .item {
+        span {
+          font-size: 16px;
+          color: #fff;
+          width: 80%;
+          margin: 2% 20%;
+          padding: 4% 16%;
+          background-color: rgba(0, 0, 0, 0.3);
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}

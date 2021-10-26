@@ -1,0 +1,39 @@
+.testimonials {
+  .title {
+    h1 {
+      font-size: 48px;
+      width: 100%;
+      color: #4bbb7b;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      margin-bottom: 0% auto;
+    }
+  }
+  .container {
+    padding: 5%;
+    display: flex;
+    text-align: center;
+    .quote {
+      background: rgba(241, 241, 241, 0.25);
+      border-radius: 5px;
+      padding: 4%;
+      color: #fff;
+      font-style: italic;
+      width: 80%;
+      margin: auto;
+    }
+    .image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        border-radius: 50%;
+        width: 8%;
+      }
+      span {
+        margin-top: 2%;
+        color: #fff;
+      }
+    }
+  }
+}

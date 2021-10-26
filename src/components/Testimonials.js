@@ -1,21 +1,22 @@
 import React from "react";
 import { testimonials } from "../data";
+import "../components/style/testimonials.scss";
 
 export default function Testimonials() {
   return (
-    <section id="testimonials">
-      <div className="">
+    <section id="testimonials" className="testimonials">
+      <div className="title">
         <h1 className="">Client Testimonials</h1>
-        <div className="">
+        <div className="list">
           {testimonials.map((testimonial) => (
-            <div className="">
-              <div className="">
+            <div className="container">
+              <div className="quote">
                 <p className="">{testimonial.quote}</p>
-                <div className="">
+                <div className="image">
                   <img alt="testimonial" src={testimonial.image} className="" />
-                  <span className="">
-                    <span className="">{testimonial.name}</span>
-                    <span className="">{testimonial.company}</span>
+                  <span className="info-container">
+                    <span className="name">{testimonial.name}</span>
+                    <span className="company">{testimonial.company}</span>
                   </span>
                 </div>
               </div>
